@@ -15,7 +15,7 @@ def handler(event, context):
     try:
         table = dynamodb.Table(table_name)
         response = table.scan()
-        return build_response(404)
+        return build_response(200, response['Items'])
     except Exception as error:
         return build_response(500, logger.error(error))
 
