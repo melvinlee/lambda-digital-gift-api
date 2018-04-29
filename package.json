@@ -1,0 +1,11 @@
+{
+  "name": "lambda-digitalgift",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/melvinlee/lambda-digitalgift.git",
+  "author": "Lee Chin Yong <melvinlee@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^0.1.5"
+  }
+}
